@@ -1,0 +1,9 @@
+# Containerlab runtime
+clab-*/
+.clab_nodes/
+*.log
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
