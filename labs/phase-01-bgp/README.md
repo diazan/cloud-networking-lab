@@ -64,6 +64,8 @@ The eBGP session successfully reached the **Established** state, confirming that
 
 ![BGP Routes](images/sh-ip-route-bgp.jpg)
 
+![BGP Routes](images/sh-ip-route-bgp2.jpg)
+
 Each router successfully learned the remote prefix through BGP, confirming that route advertisement and installation into the routing table were successful.
 
 ---
