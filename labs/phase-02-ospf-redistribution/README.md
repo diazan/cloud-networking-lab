@@ -27,7 +27,7 @@ The lab introduces a simple enterprise architecture where an internal OSPF domai
 
 The internal LAN is learned dynamically through OSPF and selectively redistributed into BGP before being advertised to the ISP.
 
-![Lab Topology](./topology.jpg)
+![Lab Topology](./topology.png)
 
 | Device | Role | Routing |
 |---------|------|---------|
@@ -85,7 +85,7 @@ The following evidence validates both the routing control-plane and the end-to-e
 
 ### 5. Default Route Propagation
 
-![OSPF Default Route](images/sh-ip-route-ospf-default.jpg)
+![OSPF Default Route](images/show-ip-route-ospf-default.jpg)
 
 *The internal router **enterprise-lan1** received a default route (**0.0.0.0/0**) from **enterprise-r1** via OSPF, providing a single exit point toward external networks without exposing the entire BGP routing table.*
 
