@@ -1,0 +1,35 @@
+name: milestone-02-ospf-redistribution
+topology:
+  nodes:
+    enterprise-lan1:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.4
+      binds:
+        - configs/enterprise-lan1/daemons:/etc/frr/daemons
+        - configs/enterprise-lan1/frr.conf:/etc/frr/frr.conf
+      cap-add:
+        - NET_ADMIN
+      exec:
+        - ip link add lan0 type dummy
+        - ip link set lan0 up
+    enterprise-r1:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.4
+      binds:
+        - configs/enterprise-r1/daemons:/etc/frr/daemons
+        - configs/enterprise-r1/frr.conf:/etc/frr/frr.conf
+      cap-add:
+        - NET_ADMIN
+    isp-r1:
+      kind: linux
+      image: quay.io/frrouting/frr:10.5.4
+      binds:
+        - configs/isp-r1/daemons:/etc/frr/daemons
+        - configs/isp-r1/frr.conf:/etc/frr/frr.conf
+      exec:
+        - ip link add loopback0 type dummy
+        - ip link set loopback0 up
+  links:
+    - endpoints: ["enterprise-r1:eth1", "isp-r1:eth1"]
+    - endpoints: ["enterprise-r1:eth2", "enterprise-lan1:eth1"]
+
