@@ -27,7 +27,7 @@ The lab introduces a simple enterprise architecture where an internal OSPF domai
 
 The internal LAN is learned dynamically through OSPF and selectively redistributed into BGP before being advertised to the ISP.
 
-![Lab Topology](./topology.png)
+![Lab Topology](images/topology.png)
 
 | Device | Role | Routing |
 |---------|------|---------|
