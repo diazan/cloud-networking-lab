@@ -1,49 +1,68 @@
-# Cloud Networking Lab
-
-> A hands-on engineering project focused on building practical skills in Enterprise and Cloud Networking through reproducible labs.
-
----
+# Diazan's Cloud Networking Lab
 
 ## Overview
 
-Cloud Networking Lab is an engineering project created to document and demonstrate practical skills in Enterprise-Cloud Networking through reproducible, hands-on labs.
+Cloud Networking Lab is an engineering-focused project that documents the design, implementation, validation, and troubleshooting of modern network architectures using **Containerlab**, **FRRouting (FRR)**, **Docker**, and eventually **AWS**, **Azure**, and **GCP**.
 
-Instead of simply listing technologies on a résumé, this repository provides evidence of real implementations, technical decision-making, and troubleshooting performed while building progressively more complex network architectures.
+Rather than collecting isolated configuration examples, this project follows an incremental learning approach where each phase builds upon the previous one, introducing new technologies while maintaining a reproducible and fully documented environment.
 
-Each milestone extends the existing platform, gradually evolving it toward production-like enterprise, cloud, and hybrid networking environments.
-
----
-
-## Project Philosophy
-
-This project follows a few simple principles:
-
-- Evidence before claims
-- Engineering before presentation
-- Quality over quantity
-- Reproducible infrastructure
-- Document real troubleshooting
-- Explain design decisions
-
-The objective is not to build dozens of isolated labs, but to create a network that continuously evolves over time.
+The project serves both as a technical portfolio and as a continuous learning platform, allowing me to maintain and expand my networking knowledge while exploring modern cloud networking technologies through reproducible, hands-on labs.
 
 ---
 
-## Technology Stack
+## Project Roadmap
 
-### Enterprise Networking
+| Phase | Topic | Status |
+|---------|------------------------------|:------:|
+| Phase 1 | BGP Fundamentals | ✅ Completed |
+| Phase 2 | OSPF & BGP Redistribution | ✅ Completed |
+| Phase 3 | iBGP & Multi-Homing | 🚧 Planned |
+| Phase 4 | BGP Best Path Selection | ⏳ Planned |
+| Phase 5 | Route Policies & Communities | ⏳ Planned |
+| Phase 6 | Internet Edge Services | ⏳ Planned |
+| Phase 7 | High Availability | ⏳ Planned |
+| Phase 8 | Hybrid Cloud Connectivity | ⏳ Planned |
+
+---
+
+## Published Labs
+
+| Phase | Description |
+|---------|-------------|
+| **Phase 1 – BGP Fundamentals** | Build a simple eBGP peering between two autonomous systems and exchange routes using the `network` statement. |
+| **Phase 2 – OSPF & BGP Redistribution** | Introduce an internal OSPF domain, selectively redistribute routes into BGP, and validate end-to-end forwarding. |
+
+---
+
+## Skills Demonstrated
+
+### Routing
+
+- eBGP
+- OSPFv2
+- Route Redistribution
+- Default Route Origination
+- Route Filtering
+- Prefix Lists
+- Route Maps
+
+### Infrastructure
 
 - Containerlab
 - FRRouting (FRR)
 - Docker
-- Linux
+- Linux Networking
 
-### Cloud Networking (Roadmap)
+### Engineering Practices
 
-- AWS
-- Terraform
-- Hybrid Networking
-- Azure
+- Incremental Lab Design
+- Architecture Design
+- Control Plane Validation
+- Data Plane Validation
+- Root Cause Analysis
+- Technical Documentation
+- Troubleshooting
+- Reproducible Network Labs
 
 ---
 
@@ -53,60 +72,59 @@ The objective is not to build dozens of isolated labs, but to create a network t
 cloud-networking-lab/
 │
 ├── labs/
-│   └── phase-01-bgp/
-│       ├── configs/
-│       ├── images/
-│       ├── README.md
-│       └── topology.clab.yml
+│   ├── phase-01-bgp/
+│   └── phase-02-ospf-redistribution/
 │
 ├── docs/
 │
-├── README.md
-├── LICENSE
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-## Milestones
+## Project Status
 
-| Milestone | Status | Description |
-|-----------|:------:|-------------|
-| Phase 01 – Understanding Why BGP Exists | ✅ Completed | Build a reproducible eBGP topology using Containerlab and FRRouting while understanding the fundamentals of BGP. |
-| Phase 02 – BGP Path Selection | 🚧 Planned | Learn how BGP selects the best path when multiple routes are available. |
-| Phase 03 – Multi-homed Enterprise | ⏳ Planned | Connect the enterprise to multiple ISPs and introduce redundancy. |
-| Phase 04 – BGP Policies | ⏳ Planned | Route filtering, Local Preference, MED and Communities. |
-| Phase 05 – Enterprise LAN Integration | ⏳ Planned | Introduce OSPF and redistribute internal routes into BGP. |
-| Phase 06 – Hybrid Cloud Connectivity | ⏳ Planned | Extend the enterprise network toward AWS using Terraform. |
+| Published Labs | Current Topic | Next Phase | Last Update |
+|----------------|---------------|------------|-------------|
+| **2** | OSPF & BGP Redistribution | iBGP & Multi-Homing | July 2026 |
 
 ---
 
-## Current Progress
+## Design Philosophy
 
-✔️ Phase 01 completed
+This project is guided by a few engineering principles:
 
-The first milestone establishes the foundation of the project by implementing an eBGP peering between two Autonomous Systems using Containerlab and FRRouting.
-
-The lab also documents the engineering decisions and troubleshooting process required to build a fully reproducible environment.
-
----
-
-## Future Roadmap
-
-The long-term goal is to evolve this repository into a production-like networking platform covering topics such as:
-
-- Advanced BGP
-- Enterprise routing
-- AWS networking
-- Hybrid connectivity
-- Infrastructure as Code
-- Network automation
-- Cloud architecture
-
-Each new milestone will extend the existing topology instead of creating isolated labs.
+- Build progressively instead of creating isolated labs.
+- Understand the reasoning behind every design decision.
+- Validate both the control plane and the data plane.
+- Document troubleshooting, not only successful configurations.
+- Keep every lab reproducible and easy to rebuild.
+- Prioritize understanding over memorization.
 
 ---
 
-## License
+## Lab Environment
 
-This project is released under the MIT License.
+| Component | Technology |
+|------------|------------|
+| Network Emulator | Containerlab |
+| Routing Stack | FRRouting (FRR) |
+| Container Runtime | Docker |
+| Host OS | Ubuntu 24.04 LTS |
+
+---
+
+## Future Direction
+
+Future phases will gradually expand the lab toward production-oriented enterprise and cloud networking scenarios, including:
+
+- iBGP
+- Multi-Homing
+- BGP Best Path Selection
+- Route Policies
+- BGP Communities
+- High Availability
+- Hybrid Cloud Connectivity
+- Terraform Automation
+
+The long-term goal is to build a comprehensive cloud networking engineering portfolio that demonstrates practical skills through reproducible labs, technical documentation, and systematic troubleshooting.
