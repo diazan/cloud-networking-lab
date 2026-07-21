@@ -12,6 +12,7 @@ topology:
       exec:
         - ip link add lan0 type dummy
         - ip link set lan0 up
+        - ip route del default via 172.20.20.1 dev eth0 
     enterprise-r1:
       kind: linux
       image: quay.io/frrouting/frr:10.5.4
