@@ -25,7 +25,7 @@ This lab serves as the foundation for future milestones involving multi-homing, 
 
 ### Network Diagram
 
-![Topology](images/topology.png)
+![Topology](images/topology.svg)
 
 ### Architecture
 
