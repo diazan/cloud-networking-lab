@@ -31,7 +31,7 @@ The topology consists of five nodes representing an internal Enterprise network 
 
 The iBGP session is established between the loopbacks `10.0.0.1/32` and `10.0.0.2/32`, while OSPF provides the internal reachability required to transport the iBGP session.
 
-![Phase 3 Topology](topology3.svg)
+![Phase 3 Topology](images/topology3.svg)
 
 The diagram distinguishes between the physical OSPF underlay in Area 0 and the logical iBGP session running between the Enterprise loopbacks. It also documents the interface addresses and link subnets used throughout the topology.
 
@@ -67,19 +67,19 @@ The following validations were performed:
 
 ### OSPF Adjacency
 
-![OSPF Neighbor Adjacency](sh-ip-ospf-neighbor-enterprise-r1.png)
+![OSPF Neighbor Adjacency](images/sh-ip-ospf-neighbor-enterprise-r1.png)
 
 OSPF neighbor adjacency reached the Full state between `enterprise-r1` and `enterprise-r2`, confirming the underlying IGP connectivity required for the iBGP session.
 
 ### Loopback Reachability
 
-![Loopback Reachability](ping-loopback-r1-to-r2.png)
+![Loopback Reachability](images/ping-loopback-r1-to-r2.png)
 
 Loopback-to-loopback reachability between `10.0.0.1` and `10.0.0.2` was successfully validated through OSPF with 0% packet loss. This confirmed the prerequisite IP connectivity required to establish the loopback-based iBGP session.
 
 ### iBGP and eBGP Sessions
 
-![BGP Summary](sh-ip-bgp-summary-enterprise-r1.png)
+![BGP Summary](images/sh-ip-bgp-summary-enterprise-r1.png)
 
 The BGP summary on `enterprise-r1` shows both BGP sessions in the Established state:
 
@@ -90,7 +90,7 @@ This confirms that `enterprise-r1` is simultaneously operating as the Enterprise
 
 ### External Route Learned via iBGP
 
-![BGP Route on Enterprise R2](sh-ip-route-bgp-enterprise-r2.png)
+![BGP Route on Enterprise R2](images/sh-ip-route-bgp-enterprise-r2.png)
 
 `enterprise-r2` has no direct eBGP session with the ISP, yet its BGP table contains the `172.16.0.0/24` external prefix learned through iBGP.
 
@@ -98,7 +98,7 @@ The route uses `enterprise-r1` as the recursive next hop, confirming the core ob
 
 ### End-to-End Connectivity
 
-![End-to-End Connectivity](ping-host1-to-isp.png)
+![End-to-End Connectivity](images/ping-host1-to-isp.png)
 
 End-to-end connectivity was validated from `host1` to the simulated ISP network at `172.16.0.1`.
 
