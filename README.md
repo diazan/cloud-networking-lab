@@ -16,12 +16,13 @@ The project serves both as a technical portfolio and as a continuous learning pl
 |---------|------------------------------|:------:|
 | Phase 1 | BGP Fundamentals | ✅ Completed |
 | Phase 2 | OSPF & BGP Redistribution | ✅ Completed |
-| Phase 3 | iBGP & Multi-Homing | 🚧 Planned |
-| Phase 4 | BGP Best Path Selection | ⏳ Planned |
-| Phase 5 | Route Policies & Communities | ⏳ Planned |
-| Phase 6 | Internet Edge Services | ⏳ Planned |
-| Phase 7 | High Availability | ⏳ Planned |
-| Phase 8 | Hybrid Cloud Connectivity | ⏳ Planned |
+| Phase 3 | iBGP | ✅ Completed |
+| Phase 4 | iBGP + Multi-Homing | 🚧 Planned |
+| Phase 5 | BGP Best Path Selection | ⏳ Planned |
+| Phase 6 | Route Policies & Communities | ⏳ Planned |
+| Phase 7 | Internet Edge Services | ⏳ Planned |
+| Phase 8 | High Availability | ⏳ Planned |
+| Phase 9 | Hybrid Cloud Connectivity | ⏳ Planned |
 
 ---
 
@@ -31,6 +32,7 @@ The project serves both as a technical portfolio and as a continuous learning pl
 |---------|-------------|
 | **Phase 1 – BGP Fundamentals** | Build a simple eBGP peering between two autonomous systems and exchange routes using the `network` statement. |
 | **Phase 2 – OSPF & BGP Redistribution** | Introduce an internal OSPF domain, selectively redistribute routes into BGP, and validate end-to-end forwarding. |
+| **Phase 3 – iBGP** | Introduce iBGP within the Enterprise AS, using OSPF as the internal underlay and validating external route propagation and end-to-end connectivity. |
 
 ---
 
@@ -39,6 +41,7 @@ The project serves both as a technical portfolio and as a continuous learning pl
 ### Routing
 
 - eBGP
+- iBGP
 - OSPFv2
 - Route Redistribution
 - Default Route Origination
@@ -74,6 +77,7 @@ cloud-networking-lab/
 ├── labs/
 │   ├── phase-01-bgp/
 │   └── phase-02-ospf-redistribution/
+│   └── phase-03-ibgp/
 │
 ├── docs/
 │
@@ -86,7 +90,7 @@ cloud-networking-lab/
 
 | Published Labs | Current Topic | Next Phase | Last Update |
 |----------------|---------------|------------|-------------|
-| **2** | OSPF & BGP Redistribution | iBGP & Multi-Homing | July 2026 |
+| **3** | iBGP | Multi-Homing | July 2026 |
 
 ---
 
@@ -118,7 +122,6 @@ This project is guided by a few engineering principles:
 
 Future phases will gradually expand the lab toward production-oriented enterprise and cloud networking scenarios, including:
 
-- iBGP
 - Multi-Homing
 - BGP Best Path Selection
 - Route Policies
