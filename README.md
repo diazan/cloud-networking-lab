@@ -2,11 +2,13 @@
 
 ## Overview
 
-Cloud Networking Lab is an engineering-focused project that documents the design, implementation, validation, and troubleshooting of modern network architectures using **Containerlab**, **FRRouting (FRR)**, **Docker**, and eventually **AWS**, **Azure**, and **GCP**.
+Diazan's Cloud Networking Lab is an engineering-focused project that documents the design, implementation, validation, and troubleshooting of modern network architectures using **Containerlab**, **FRRouting (FRR)**, **Docker**, and eventually **AWS**, **Azure**, and **GCP**.
 
 Rather than collecting isolated configuration examples, this project follows an incremental learning approach where each phase builds upon the previous one, introducing new technologies while maintaining a reproducible and fully documented environment.
 
 The project serves both as a technical portfolio and as a continuous learning platform, allowing me to maintain and expand my networking knowledge while exploring modern cloud networking technologies through reproducible, hands-on labs.
+
+Published labs and project updates are also available at **https://www.andresdiaz.co**.
 
 ---
 
