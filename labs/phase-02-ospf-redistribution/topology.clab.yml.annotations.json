@@ -1,0 +1,262 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1785187770699",
+      "text": "192.168.12.0/30",
+      "position": {
+        "x": 619.2175802946148,
+        "y": 373.59815506335184
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785187851482",
+      "text": ".1/30",
+      "position": {
+        "x": 583.1200193190051,
+        "y": 333.2323014048152
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785187874169",
+      "text": ".2/30",
+      "position": {
+        "x": 717.7541656604686,
+        "y": 334.93961847798585
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785187880347",
+      "text": ".1",
+      "position": {
+        "x": 753.6078241970539,
+        "y": 355.5493745755469
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785187947926",
+      "text": "AS65001",
+      "position": {
+        "x": 527.0224583433952,
+        "y": 410.0615696974982
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785187963677",
+      "text": "AS65002",
+      "position": {
+        "x": 751.900507123883,
+        "y": 408.1103501853031
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188318724",
+      "text": "eBGP",
+      "position": {
+        "x": 649.4730358812263,
+        "y": 302.5809867321744
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188354442",
+      "text": "192.168.12.4/30",
+      "position": {
+        "x": 392.45080291001256,
+        "y": 373.19617740556976
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188391987",
+      "text": ".5/30",
+      "position": {
+        "x": 343.7234462414901,
+        "y": 329.91575551020713
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188404072",
+      "text": ".6/30",
+      "position": {
+        "x": 489.04988042500867,
+        "y": 330.4853005980337
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188425611",
+      "text": "OSPF Area 0",
+      "position": {
+        "x": 394.5320988739726,
+        "y": 298.29291809195763
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188452574",
+      "text": "LAN 10.10.0.0/24",
+      "position": {
+        "x": 252.14954988458192,
+        "y": 409.7120640809171
+      },
+      "fontSize": 14,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188496624",
+      "text": "Loopback",
+      "position": {
+        "x": 808.430105460568,
+        "y": 346.16110795857145
+      },
+      "fontSize": 10,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1785188535533",
+      "text": "172.16.0.1/32",
+      "position": {
+        "x": 806.0850823115685,
+        "y": 363.2465397217455
+      },
+      "fontSize": 10,
+      "fontColor": "#8a8f98",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    }
+  ],
+  "freeShapeAnnotations": [
+    {
+      "id": "freeShape_1785187996572",
+      "shapeType": "circle",
+      "position": {
+        "x": 580.3740276795144,
+        "y": 291.2909247051916
+      },
+      "width": 179,
+      "height": 179,
+      "fillColor": "#27bebc",
+      "fillOpacity": 0.2,
+      "borderColor": "#bbbebf",
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "rotation": 0,
+      "zIndex": -1
+    }
+  ],
+  "trafficRateAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "enterprise-lan1",
+      "position": {
+        "x": 300,
+        "y": 360
+      }
+    },
+    {
+      "id": "enterprise-r1",
+      "position": {
+        "x": 540,
+        "y": 360
+      }
+    },
+    {
+      "id": "isp-r1",
+      "position": {
+        "x": 760,
+        "y": 360
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}

@@ -1,0 +1,54 @@
+{
+  "freeTextAnnotations": [],
+  "freeShapeAnnotations": [],
+  "trafficRateAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "enterprise-lan1",
+      "position": {
+        "x": 340,
+        "y": 320
+      }
+    },
+    {
+      "id": "enterprise-r1",
+      "position": {
+        "x": 660,
+        "y": 320
+      }
+    },
+    {
+      "id": "enterprise-r2",
+      "position": {
+        "x": 520,
+        "y": 320
+      }
+    },
+    {
+      "id": "isp-r1",
+      "position": {
+        "x": 820,
+        "y": 200
+      }
+    },
+    {
+      "id": "isp-r2",
+      "position": {
+        "x": 820,
+        "y": 440
+      }
+    },
+    {
+      "id": "host1",
+      "position": {
+        "x": 180,
+        "y": 320
+      }
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}
